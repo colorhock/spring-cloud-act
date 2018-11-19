@@ -1,0 +1,54 @@
+server:
+  port: 8099
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    #true表示将自己的IP注册到Eureka Server,如果不配置该属性或将起设置为false，则表示微服务所在的操作系统的hostname到Eureka Server.
+    prefer-ip-address: true
+
+
+
+spring:
+ application:
+   name: microservice-provider-user
+ datasource:
+   #数据库相关的配置url -SSL连接设置为false
+   url: jdbc:mysql://localhost:3306/schema?characterEncoding=utf8&useSSL=false
+   #配置用户名
+   username: root
+   #配置密码
+   password: root
+   driverClassName : com.mysql.jdbc.Driver
+
+ jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database:           #指定数据源
+      database-platform: h2   #指定数据源类型
+#      schema: classpath:schema.sql  #指定h2数据库建表脚本
+#      data: classpath:data.sql   #指定h2数据库的数据脚本
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+
+
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.descriptor.sql.BasicExtractor: TRACE
+
+
