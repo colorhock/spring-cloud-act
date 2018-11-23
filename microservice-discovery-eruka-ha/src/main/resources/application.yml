@@ -15,7 +15,7 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       #将自己注册到peer2这个eureka上面去
-      defaultZone: http://localhost:8762/eruka/, http://localhost:8763/eruka/
+      defaultZone: http://peer2:8762/eruka/, http://peer3:8763/eruka/
 
 
 ---
@@ -31,7 +31,7 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       #将自己注册到peer2这个eureka上面去
-      defaultZone: http://localhost:8761/eruka/, http://localhost:8763/eruka/
+      defaultZone: http://peer1:8761/eruka/, http://peer3:8763/eruka/
 
 ---
 spring:
@@ -46,4 +46,4 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       #将自己注册到peer2这个eureka上面去
-      defaultZone: http://localhost:8761/eruka/, http://localhost:8762/eruka/
+      defaultZone: http://peer1:8761/eruka/, http://peer2:8762/eruka/

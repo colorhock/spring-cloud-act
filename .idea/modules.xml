@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eruka-ha/eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eruka-ha/eureka-ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/microservice-consumer-movie-feign-logging.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/microservice-consumer-movie-feign-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/microservice-consumer-movie-ribbon-customizing.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/microservice-consumer-movie-ribbon-customizing.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eruka/microservice-discovery-eruka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eruka/microservice-discovery-eruka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-user/microservice-simple-consumer-user.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-user/microservice-simple-consumer-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-simple-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user (1).iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-act.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-act.iml" />
     </modules>
