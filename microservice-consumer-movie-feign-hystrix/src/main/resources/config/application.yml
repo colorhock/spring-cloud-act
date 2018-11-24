@@ -1,0 +1,38 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: microservice-consumer-movie
+
+feign:
+  hystrix:
+    enabled: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/, http://peer2:8762/eureka/, http://peer3:8763/eureka/
+  instance:
+    #true表示将自己的IP注册到Eureka Server,如果不配置该属性或将起设置为false，则表示微服务所在的操作系统的hostname到Eureka Server.
+    prefer-ip-address: true
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.descriptor.sql.BasicExtractor: TRACE
+    com.itmuch.service.UserFeignClient: DEBUG #将Feign接口的日志级别设置为DEBUG，因为Feign的Logger.Level只对DEBUG做出响应
+
+user:
+  userServiceUrl: http://localhost:8099/

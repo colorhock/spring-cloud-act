@@ -9,7 +9,9 @@
         <module name="eureka-ha" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-consumer-movie-feign-hystrix" />
         <module name="microservice-consumer-movie-feign-logging" />
+        <module name="microservice-consumer-movie-feign-logging (1)" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon (1)" />
         <module name="microservice-consumer-movie-ribbon-customizing" />
@@ -24,7 +26,9 @@
       <module name="eureka-ha" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-feign" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix" target="1.8" />
       <module name="microservice-consumer-movie-feign-logging" target="1.8" />
+      <module name="microservice-consumer-movie-feign-logging (1)" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
       <module name="microservice-consumer-movie-ribbon (1)" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-customizing" target="1.8" />
