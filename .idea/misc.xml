@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/mircoservice-getway-zuul/pom.xml" />
       </list>
     </option>
   </component>

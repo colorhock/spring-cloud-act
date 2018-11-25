@@ -12,7 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eruka/microservice-discovery-eruka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eruka/microservice-discovery-eruka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-user/microservice-simple-consumer-user.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-user/microservice-simple-consumer-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user (1).iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mircoservice-getway-zuul/mircoservice-getway-zuul.iml" filepath="$PROJECT_DIR$/mircoservice-getway-zuul/mircoservice-getway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-act.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-act.iml" />
     </modules>
   </component>

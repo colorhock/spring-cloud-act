@@ -20,6 +20,7 @@
         <module name="microservice-simple-consumer-user" />
         <module name="microservice-simple-provider-user" />
         <module name="microservice-simple-provider-user (1)" />
+        <module name="mircoservice-getway-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="microservice-simple-consumer-user" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-simple-provider-user (1)" target="1.8" />
+      <module name="mircoservice-getway-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
