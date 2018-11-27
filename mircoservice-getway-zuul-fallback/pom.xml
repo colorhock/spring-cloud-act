@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.zuulservice</groupId>
-	<artifactId>mircoservice-getway-zuul-filter</artifactId>
+	<artifactId>mircoservice-getway-zuul-fallback</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mircoservice-getway-zuul-filter</name>
-	<description>mircoservice-getway-zuul-filter</description>
+	<name>mircoservice-getway-zuul-fallback</name>
+	<description>mircoservice-getway-zuul-fallback</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

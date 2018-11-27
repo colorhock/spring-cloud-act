@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableZuulProxy
 @EnableDiscoveryClient
-public class MircoserviceGetwayZuulApplication {
+public class MircoserviceGetwayZuulFilterApplication {
 
 	@Bean
 	public PreRequestLogFliter preRequestLogFliter() {
@@ -18,6 +18,6 @@ public class MircoserviceGetwayZuulApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(MircoserviceGetwayZuulApplication.class, args);
+		SpringApplication.run(MircoserviceGetwayZuulFilterApplication.class, args);
 	}
 }

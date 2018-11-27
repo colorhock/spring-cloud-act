@@ -24,6 +24,7 @@
         <module name="microservice-simple-provider-user" />
         <module name="microservice-simple-provider-user (1)" />
         <module name="mircoservice-getway-zuul" />
+        <module name="mircoservice-getway-zuul-fallback" />
         <module name="mircoservice-getway-zuul-filter" />
         <module name="mircroservice-hystrix-dashboard" />
       </profile>
@@ -47,6 +48,7 @@
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-simple-provider-user (1)" target="1.8" />
       <module name="mircoservice-getway-zuul" target="1.8" />
+      <module name="mircoservice-getway-zuul-fallback" target="1.8" />
       <module name="mircoservice-getway-zuul-filter" target="1.8" />
       <module name="mircroservice-hystrix-dashboard" target="1.8" />
     </bytecodeTargetLevel>

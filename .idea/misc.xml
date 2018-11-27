@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-stream/pom.xml" />
         <option value="$PROJECT_DIR$/mircroservice-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/mircoservice-getway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/mircoservice-getway-zuul-fallback/pom.xml" />
       </list>
     </option>
   </component>
